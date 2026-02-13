@@ -109,25 +109,25 @@ const MintCertificate = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-700">Student Name</label>
-                                    <input name="studentName" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" placeholder="e.g. Jane Doe" />
+                                    <input name="studentName" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all placeholder:text-black" placeholder="e.g. Jane Doe" />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-700">Roll Number</label>
-                                    <input name="rollNumber" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" placeholder="e.g. 2023-CS-001" />
+                                    <input name="rollNumber" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all placeholder:text-black" placeholder="e.g. 2023-CS-001" />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-700">Course Name</label>
-                                    <input name="courseName" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" placeholder="e.g. Advanced Blockchain" />
+                                    <input name="courseName" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all placeholder:text-black" placeholder="e.g. Advanced Blockchain" />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-700">Grade / Score</label>
-                                    <input name="grade" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" placeholder="e.g. A+ / 95%" />
+                                    <input name="grade" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all placeholder:text-black" placeholder="e.g. A+ / 95%" />
                                 </div>
                             </div>
 
                             <div className="space-y-2">
                                 <label className="text-sm font-medium text-slate-700">Issue Date</label>
-                                <input type="date" name="issueDate" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" />
+                                <input type="date" name="issueDate" required onChange={handleInputChange} disabled={status !== 'idle'} className="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all placeholder:text-black" placeholder="e.g. 2023-01-01" />
                             </div>
 
                             <div className="space-y-2">
